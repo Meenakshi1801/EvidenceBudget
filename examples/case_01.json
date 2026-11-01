@@ -22,7 +22,7 @@
     },
     {
       "id": "E3",
-      "description": "Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "description": "Given an accessibility constraint, revise the assessment response format while preserving the learning outcome and success criteria; justify how the revision still elicits the required evidence.",
       "minimum": 1
     }
   ],
@@ -83,7 +83,6 @@
       "id": "C",
       "name": "Adaptation with justification",
       "coverage": [
-        "E2",
         "E3"
       ],
       "preparation": 15,
@@ -96,14 +95,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Adaptation with justification.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "During a supervised checkpoint, the standard printed worksheet is inaccessible to a learner with low vision. Propose an accessible response format for assessing the science learning outcome about falling objects. Explain why your alternative preserves the same outcome and success criteria and allows the learner to show what they understand.",
+      "conditions": "Complete individually without GenAI. Name the accessibility constraint; specify the alternative response format; state the unchanged learning outcome and success criteria; explain how the alternative elicits evidence of understanding without changing what is assessed.",
+      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
+      "mapping_rationale": "This checkpoint directly supports E3: the student revises the assessment in response to a specified accessibility constraint and justifies how the revised format preserves the intended outcome and success criteria. Score accessibility fit and whether the revised format elicits the required evidence. Do not count this response toward E1 misconception diagnosis or E2 teaching-strategy justification.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "22cd35dbd50acddf4dfa1c9b15e065f18134619019a20d60f7aa7888c32bab4c"
+        "fingerprint": "0f3fa032790563d34be34f12dd3c06888fe97748235f425a3a0aa7ac8c29d0f0"
       }
     },
     {
@@ -184,5 +183,6 @@
     }
   ],
   "notes": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
-  "expected_narrative": "A + C costs 170 minutes and S = 20; E alone costs 160 minutes and S = 20. E is the cheapest complete combination in this expanded library. At budget 160 it remains feasible; at 159 no complete plan is feasible. This extends the four-candidate protocol example: adding E correctly changes its previous 170-minute minimum."
+  "expected_narrative": "A + B + C costs 300 teacher minutes and 22 student minutes; E alone costs 160 teacher minutes and 20 student minutes. E is the cheapest complete plan in this worked example. At teacher budget 160 it remains feasible; at 159 no complete plan is feasible.",
+  "context_conditions": "A learner with low vision cannot access the standard printed worksheet. Preserve the same science learning outcome and success criteria while providing an accessible way to respond."
 }
