@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.4 — simpler sample-plan language
+
+- Replace “worked example” wording on the guided start with “sample plan” language.
+- Use the short message “This is a sample. Make it your own.” after opening a sample.
+- Explain in plain language that teachers can change the sample to fit their class.
+
+
 ## 0.4.3 — guided start and blank workspace
 
 - Open the app on a concise instructional page instead of preloading the worked case into the assignment fields.
