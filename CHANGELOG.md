@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.9 — add welcome cover and move creator credit
+
+- Add a welcome page with the app title, purpose, and developer affiliation before the usage guide.
+- Add a “Get started” button to open the “How to use EvidenceBudget” guide.
+- Move the creator credit from the repeating footer to the welcome page; keep it near the top of the PDF blueprint.
+
+
 ## 0.4.8 — add creator and affiliation credit
 
 - Show the concept and development credit in the teacher interface and PDF blueprint.
