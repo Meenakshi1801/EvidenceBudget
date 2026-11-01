@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.8 — clarify intended teaching contexts
+
+- State that EvidenceBudget can support school and university assessment planning, with examples and estimates adapted to the local context.
+
+
 ## 0.5.7 — clarify teacher-facing labels and PDF saving
 
 - Replace abbreviations and technical labels with plain-language wording.
