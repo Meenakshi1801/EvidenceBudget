@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.7 — simplify sample controls
+
+- Remove the redundant “TRY A SAMPLE PLAN” sidebar heading; the sample selector label and action button remain.
+
+
 ## 0.4.6 — clear next-step navigation
 
 - Add a bottom “Next: checkpoints & review” button to the evidence requirements page, with a back button to assignment.
