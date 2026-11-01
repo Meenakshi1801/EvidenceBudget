@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.6 — clear next-step navigation
+
+- Add a bottom “Next: checkpoints & review” button to the evidence requirements page, with a back button to assignment.
+- Clarify that confirming the checkpoint review proceeds to plan comparison.
+- Keep the top “Compare plans” control on the comparison page only.
+
+
 ## 0.4.5 — keep start-page message on the start page
 
 - Clear ordinary welcome and status messages when moving into a workspace step, so the orange strip does not repeat the start-page instruction on every page.
