@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.2 — PDF page-break refinement
+
+- Allow long checkpoint details to flow across pages instead of moving the entire section to a new page and leaving a large blank area.
+- Keep section headings with their following content to reduce orphan headings.
+- Based on inspection of a representative teacher-exported blueprint; re-export once on this build to confirm the layout in the Codespaces browser.
+
 ## 0.4.1 — expert-review usability fixes
 
 - Move directly to plan comparison after a successful review confirmation.
