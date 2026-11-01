@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.1 — expert-review usability fixes
+
+- Move directly to plan comparison after a successful review confirmation.
+- Add a server version check and plain Codespaces restart guidance when the preview is connected to an older server.
+- Add a checkpoint field for an alternative response/accessibility route with an adjacent reminder to judge evidence equivalence.
+- Allow long unbroken text to wrap in the readable PDF print layout.
+- Expert-review findings EX5–EX7 informed these changes; the revised build still needs follow-up review and PDF inspection.
+
 ## 0.4.0 — teacher-readable PDF record
 
 - Replaced visible JSON export/import controls with a readable print-to-PDF blueprint containing assignment context, evidence requirements, selected checkpoint details, time assumptions, and the review record.
