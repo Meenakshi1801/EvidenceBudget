@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.8 — add creator and affiliation credit
+
+- Show the concept and development credit in the teacher interface and PDF blueprint.
+- Align the app, sidebar, and README release labels at 0.4.8.
+
+
 ## 0.4.7 — simplify sample controls
 
 - Remove the redundant “TRY A SAMPLE PLAN” sidebar heading; the sample selector label and action button remain.
