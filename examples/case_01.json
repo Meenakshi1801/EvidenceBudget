@@ -43,14 +43,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Misconception response.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "A learner says, \"Heavier objects always fall faster.\" Independently identify the misconception and write one question that would help reveal the learner's reasoning.",
+      "conditions": "Complete this task individually during the supervised checkpoint, without GenAI. Identify the misconception in the learner's statement and propose a question that would help reveal the reasoning behind it.",
+      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
+      "mapping_rationale": "The response provides direct evidence for E1 because each student identifies the misconception and proposes a question to investigate the learner's reasoning. Do not use this checkpoint to score teaching-strategy selection or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "5131bb83497260bd15c9360901bc8f1459cd094ea1626d7f21464028b78547dd"
+        "fingerprint": "3c5b27badeb46f9e751a33f9d1679137af4e2931cd04d631409183cb3d16a947"
       }
     },
     {
