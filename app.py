@@ -1,11 +1,15 @@
 """Local teacher interface. Run python app.py then open http://127.0.0.1:8765."""
-import argparse,json,secrets,webbrowser
+import argparse,hashlib,json,secrets,webbrowser
+from datetime import datetime,timezone
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
 from engine import solve,validate,fingerprint,ValidationError
 ROOT=Path(__file__).resolve().parent
 TOKEN=secrets.token_urlsafe(32)
+def case_fingerprint(case):
+ raw=json.dumps(case,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
+ return hashlib.sha256(raw).hexdigest()
 class Handler(BaseHTTPRequestHandler):
  def log_message(self,*args):pass
  def send(self,status,data,mime='application/json'):
@@ -28,7 +32,9 @@ class Handler(BaseHTTPRequestHandler):
     if not reviewer:raise ValidationError('Enter your reviewer name or identifier')
     for cp in case['checkpoints']:
      cp['approval']={'status':'teacher_approved','reviewer':reviewer,'fingerprint':fingerprint(cp)}
-    validate(case);return self.send(200,{'case':case})
+    validate(case)
+    review_confirmation={'status':'confirmed','reviewer':reviewer,'confirmed_at':datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z'),'case_fingerprint':case_fingerprint(case)}
+    return self.send(200,{'case':case,'review_confirmation':review_confirmation})
    if self.path=='/api/validate':
     validate(case);return self.send(200,{'valid':True})
    if self.path=='/api/solve':return self.send(200,{'result':solve(case)})
