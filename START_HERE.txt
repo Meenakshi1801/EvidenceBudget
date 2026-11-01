@@ -1,4 +1,4 @@
-EvidenceBudget teacher app 0.2.0
+EvidenceBudget teacher app 0.3.0
 
 1. Extract the ZIP completely. Do not run it inside the ZIP preview.
 2. Install Python 3.10 or newer if Python is not already installed.

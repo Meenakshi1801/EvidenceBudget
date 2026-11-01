@@ -189,6 +189,6 @@
       }
     }
   ],
-  "notes": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+  "notes": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence. The case includes oral and written demonstration routes. Alternative modes require teacher review against the same evidence claim and criteria; the software does not determine equivalence.",
   "expected_narrative": "A and B are mutually exclusive full-cohort delivery routes. A is also unavailable under the scenario constraint and must be filtered out. B alone costs 78 minutes and S = 15, meeting all requirements. C + D costs 100 minutes and S = 20 and is feasible but dominated by B under the stated coverage and cost model."
 }

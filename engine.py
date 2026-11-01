@@ -1,10 +1,10 @@
-"""EvidenceBudget 0.1.0: deterministic planning under explicit assumptions."""
+"""EvidenceBudget 0.2.0: deterministic planning under explicit assumptions."""
 import hashlib
 import json
 from decimal import Decimal, InvalidOperation
 from itertools import combinations
 
-VERSION = '0.1.0'
+VERSION = '0.2.0'
 class ValidationError(ValueError):
     pass
 
@@ -84,11 +84,18 @@ def cost(c):
 def _value(d): return int(d) if d==int(d) else float(d)
 
 def _plan(case, selected):
-    teacher=number(case['fixed_teacher_setup'],'setup')+sum((cost(c) for c in selected),Decimal(0))
+    setup=number(case['fixed_teacher_setup'],'setup')
+    teacher=setup+sum((cost(c) for c in selected),Decimal(0))
     student=sum((number(c['student_minutes'],'S') for c in selected),Decimal(0))
     counts={r['id']:sum(r['id'] in c['coverage'] for c in selected) for r in case['requirements']}
     gaps={r['id']:max(0,int(r.get('minimum',1))-counts[r['id']]) for r in case['requirements']}
-    return {'selected':[c['id'] for c in selected], 'teacher_minutes':_value(teacher),'student_minutes':_value(student),'coverage_counts':counts,'unmet_requirements':{k:v for k,v in gaps.items() if v},'cost_breakdown':[{'id':c['id'],'teacher_minutes':_value(cost(c))} for c in selected]}
+    breakdown=[]
+    for c in selected:
+        prep=number(c['preparation'],'P')
+        review=number(c['review_units'],'N',True)*number(c['review_per_unit'],'R')
+        delivery=number(c['delivery'],'L')
+        breakdown.append({'id':c['id'],'preparation_minutes':_value(prep),'review_minutes':_value(review),'delivery_minutes':_value(delivery),'teacher_minutes':_value(prep+review+delivery)})
+    return {'selected':[c['id'] for c in selected], 'teacher_minutes':_value(teacher),'fixed_teacher_setup_minutes':_value(setup),'student_minutes':_value(student),'coverage_counts':counts,'unmet_requirements':{k:v for k,v in gaps.items() if v},'cost_breakdown':breakdown}
 
 def solve(case):
     validate(case)

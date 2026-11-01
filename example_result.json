@@ -1,5 +1,5 @@
 {
-  "engine_version": "0.1.0",
+  "engine_version": "0.2.0",
   "case_id": "01",
   "case_sha256": "8b49fe3197a0be5af59eba9b36db1b3f2fdfb742263547605df89be83dc199d7",
   "status": "feasible",
@@ -10,6 +10,7 @@
         "E"
       ],
       "teacher_minutes": 160,
+      "fixed_teacher_setup_minutes": 0,
       "student_minutes": 20,
       "coverage_counts": {
         "E1": 1,
@@ -20,6 +21,9 @@
       "cost_breakdown": [
         {
           "id": "E",
+          "preparation_minutes": 20,
+          "review_minutes": 120,
+          "delivery_minutes": 20,
           "teacher_minutes": 160
         }
       ]
