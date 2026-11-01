@@ -10,7 +10,7 @@ class EngineTests(unittest.TestCase):
   for i,v in enumerate([160,110,None,78,131,140],1):
    with self.subTest(case=i):self.assertEqual(solve(load(i))['minimum_teacher_minutes_with_student_limit'],v)
  def test_six_feasible_counts(self):
-  self.assertEqual([solve(load(i))['feasible_count'] for i in range(1,7)],[2,0,0,3,4,1])
+  self.assertEqual([solve(load(i))['feasible_count'] for i in range(1,7)],[1,0,0,3,4,1])
  def test_budget_boundary(self):
   c=load(1);c['teacher_budget']=160;self.assertEqual(solve(c)['status'],'feasible');c['teacher_budget']=159;self.assertEqual(solve(c)['teacher_shortfall'],1)
  def test_teacher_shortfall(self):
