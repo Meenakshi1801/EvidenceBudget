@@ -89,7 +89,7 @@ This package has been prepared for local review. It has not been published to a 
 
 ## Teacher interface
 
-Open `START_HERE.txt` for launch instructions. The local app has no persistent data store, account system or external API. Teacher entries are not sent to an external service. The UI and Python server must be used together; opening interface.html directly is unsupported. After comparing plans, choose “Download readable PDF blueprint,” then “Save as PDF” in the browser print dialog. The app does not automatically save drafts.
+Open `START_HERE.txt` for launch instructions. The local app has no persistent data store, account system or external API. Teacher entries are not sent to an external service. The UI and Python server must be used together; opening interface.html directly is unsupported. After comparing plans, choose “Create a readable PDF blueprint,” then “Save as PDF” in the browser print dialog. The app does not automatically save drafts.
 
 The UI requires renewed review after any input edit. The review confirmation applies to the current complete design. Example fixtures can be explored under their labelled development assumptions. A successful review now proceeds directly to plan comparison. If the preview reports a server-version mismatch, stop the terminal running the old EvidenceBudget server and start the updated app as described in `CODESPACES_START.md`.
 
