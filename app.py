@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 from engine import solve,validate,fingerprint,ValidationError
 ROOT=Path(__file__).resolve().parent
 TOKEN=secrets.token_urlsafe(32)
+APP_VERSION='0.4.1'
 def case_fingerprint(case):
  raw=json.dumps(case,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
  return hashlib.sha256(raw).hexdigest()
@@ -19,6 +20,7 @@ class Handler(BaseHTTPRequestHandler):
   path=urlparse(self.path).path
   if path=='/':self.send(200,(ROOT/'interface.html').read_text().replace('__TOKEN__',TOKEN),'text/html')
   elif path=='/api/examples':self.send(200,[json.loads(p.read_text()) for p in sorted((ROOT/'examples').glob('case_*.json'))])
+  elif path=='/api/version':self.send(200,{'app_version':APP_VERSION,'review_record':True})
   else:self.send(404,{'error':'Not found'})
  def do_POST(self):
   if self.headers.get('X-EvidenceBudget-Token')!=TOKEN:return self.send(403,{'error':'Reload the app before submitting.'})
