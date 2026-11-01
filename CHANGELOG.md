@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.2 — restore the green sidebar navigation
+
+- Keep the warm gradient for buttons within the workspace.
+- Restore the sidebar buttons to green outlined controls with a pale-green active state.
+
+
 ## 0.5.1 — unify buttons and soften workspace styling
 
 - Use the welcome page’s warm yellow-to-peach gradient across interface buttons.
