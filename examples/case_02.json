@@ -3,8 +3,8 @@
   "case_id": "02",
   "title": "Research design under a restricted budget",
   "class_size": 40,
-  "assignment": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
-  "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+  "assignment": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+  "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
   "teacher_budget": 100,
   "student_budget": 30,
   "fixed_teacher_setup": 0,
@@ -45,7 +45,7 @@
       "evidence_scope": "individual_all",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Design choice response.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
@@ -71,7 +71,7 @@
       "evidence_scope": "individual_all",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Sampling critique.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
@@ -97,7 +97,7 @@
       "evidence_scope": "individual_all",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Inference correction.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
@@ -125,7 +125,7 @@
       "evidence_scope": "individual_all",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Combined supervised critique.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
@@ -149,7 +149,7 @@
       "evidence_scope": "context_only",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Research-process reflection.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
@@ -176,7 +176,7 @@
       "evidence_scope": "individual_all",
       "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Extended design interview.",
       "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
-      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "ai_permissions": "Develop a small research proposal. generative AI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",

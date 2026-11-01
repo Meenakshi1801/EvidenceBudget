@@ -1,7 +1,7 @@
 {
   "engine_version": "0.2.0",
   "case_id": "01",
-  "case_sha256": "8b49fe3197a0be5af59eba9b36db1b3f2fdfb742263547605df89be83dc199d7",
+  "case_sha256": "339827c5ebe9d1d4a0fb411649296f475c6c281bb206ff861e472c9de9176a09",
   "status": "feasible",
   "feasible_count": 2,
   "pareto_plans": [

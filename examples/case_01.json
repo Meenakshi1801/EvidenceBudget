@@ -3,8 +3,8 @@
   "case_id": "01",
   "title": "Inclusive lesson planning",
   "class_size": 60,
-  "assignment": "Create an inclusive science lesson plan about falling objects. Explain how you would diagnose the misconception that heavier objects always fall faster, justify a teaching strategy for the learner, and adapt the assessment to a stated accessibility constraint. Students must demonstrate these decisions individually at the checkpoints.",
-  "ai_permissions": "While preparing the lesson plan, GenAI may help draft activities and suggest resources. Students must disclose suggestions they use. During supervised checkpoints, no GenAI is permitted; students must independently diagnose the misconception, justify a teaching strategy, and adapt an assessment to the stated learner and classroom context.",
+  "assignment": "Create an inclusive science lesson plan about falling objects. Explain how you would diagnose the misconception that heavier objects always fall faster, justify a teaching strategy for the student, and adapt the assessment to a stated accessibility constraint. Students must demonstrate these decisions individually at the checkpoints.",
+  "ai_permissions": "While preparing the lesson plan, generative AI may help draft activities and suggest resources. Students must disclose suggestions they use. During supervised checkpoints, no generative AI is permitted; students must independently diagnose the misconception, justify a teaching strategy, and adapt an assessment to the stated student and classroom context.",
   "teacher_budget": 180,
   "student_budget": 40,
   "fixed_teacher_setup": 0,
@@ -17,7 +17,7 @@
     },
     {
       "id": "E2",
-      "description": "Justify a teaching strategy against that learner need.",
+      "description": "Justify a teaching strategy against that student need.",
       "minimum": 1
     },
     {
@@ -43,10 +43,10 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "A learner says, \"Heavier objects always fall faster.\" Independently identify the misconception and write one question that would help reveal the learner's reasoning.",
-      "conditions": "Complete this task individually during the supervised checkpoint, without GenAI. Identify the misconception in the learner's statement and propose a question that would help reveal the reasoning behind it.",
-      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
-      "mapping_rationale": "The response provides direct evidence for E1 because each student identifies the misconception and proposes a question to investigate the learner's reasoning. Do not use this checkpoint to score teaching-strategy selection or assessment adaptation.",
+      "prompt": "A student says, \"Heavier objects always fall faster.\" Independently identify the misconception and write one question that would help reveal the student's reasoning.",
+      "conditions": "Complete this task individually during the supervised checkpoint, without generative AI. Identify the misconception in the student's statement and propose a question that would help reveal the reasoning behind it.",
+      "ai_permissions": "No generative AI during this supervised checkpoint. Students complete the response independently.",
+      "mapping_rationale": "The response provides direct evidence for E1 because each student identifies the misconception and proposes a question to investigate the student's reasoning. Do not use this checkpoint to score teaching-strategy selection or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
@@ -69,10 +69,10 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "After diagnosing the learner's belief that heavier objects fall faster, select a teaching strategy for this learner. Explain how the strategy addresses the misconception and identify an observable learner response that would indicate understanding.",
-      "conditions": "Complete this task individually during the supervised checkpoint, without GenAI. Select a strategy suited to the diagnosed learner need, explain how it addresses the misconception, and identify an observable response that would indicate understanding.",
-      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
-      "mapping_rationale": "This response provides direct evidence for E2 because each student selects and justifies a teaching strategy in relation to the learner's misconception. Score the fit and explanation of the strategy. Do not use this checkpoint to score misconception diagnosis or assessment adaptation.",
+      "prompt": "After diagnosing the student's belief that heavier objects fall faster, select a teaching strategy for this student. Explain how the strategy addresses the misconception and identify an observable student response that would indicate understanding.",
+      "conditions": "Complete this task individually during the supervised checkpoint, without generative AI. Select a strategy suited to the diagnosed student need, explain how it addresses the misconception, and identify an observable response that would indicate understanding.",
+      "ai_permissions": "No generative AI during this supervised checkpoint. Students complete the response independently.",
+      "mapping_rationale": "This response provides direct evidence for E2 because each student selects and justifies a teaching strategy in relation to the student's misconception. Score the fit and explanation of the strategy. Do not use this checkpoint to score misconception diagnosis or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
@@ -95,9 +95,9 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "During a supervised checkpoint, the standard printed worksheet is inaccessible to a learner with low vision. Propose an accessible response format for assessing the science learning outcome about falling objects. Explain why your alternative preserves the same outcome and success criteria and allows the learner to show what they understand.",
-      "conditions": "Complete individually without GenAI. Name the accessibility constraint; specify the alternative response format; state the unchanged learning outcome and success criteria; explain how the alternative elicits evidence of understanding without changing what is assessed.",
-      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
+      "prompt": "During a supervised checkpoint, the standard printed worksheet is inaccessible to a student with low vision. Propose an accessible response format for assessing the science learning outcome about falling objects. Explain why your alternative preserves the same outcome and success criteria and allows the student to show what they understand.",
+      "conditions": "Complete individually without generative AI. Name the accessibility constraint; specify the alternative response format; state the unchanged learning outcome and success criteria; explain how the alternative elicits evidence of understanding without changing what is assessed.",
+      "ai_permissions": "No generative AI during this supervised checkpoint. Students complete the response independently.",
       "mapping_rationale": "This checkpoint directly supports E3: the student revises the assessment in response to a specified accessibility constraint and justifies how the revised format preserves the intended outcome and success criteria. Score accessibility fit and whether the revised format elicits the required evidence. Do not count this response toward E1 misconception diagnosis or E2 teaching-strategy justification.",
       "approval": {
         "status": "development_assumption",
@@ -119,9 +119,9 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "context_only",
-      "prompt": "After preparing the lesson plan, identify one GenAI suggestion you used, adapted, or rejected. Explain your decision in relation to the learner and classroom context, and state how you documented the AI contribution. This reflection records the planning process; it is not evidence of independent performance on E1-E3.",
-      "conditions": "Complete individually after lesson-plan preparation. Describe one specific AI suggestion and whether it was used, adapted, or rejected; explain the decision with reference to the learner/context. Do not treat this self-report as proof of authorship or as evidence that E1-E3 have been met.",
-      "ai_permissions": "GenAI may be used during lesson-plan preparation as stated in the assignment rules. Do not use GenAI to draft or revise this reflection; disclose any planning suggestions used.",
+      "prompt": "After preparing the lesson plan, identify one generative AI suggestion you used, adapted, or rejected. Explain your decision in relation to the student and classroom context, and state how you documented the AI contribution. This reflection records the planning process; it is not evidence of independent performance on E1-E3.",
+      "conditions": "Complete individually after lesson-plan preparation. Describe one specific AI suggestion and whether it was used, adapted, or rejected; explain the decision with reference to the student/context. Do not treat this self-report as proof of authorship or as evidence that E1-E3 have been met.",
+      "ai_permissions": "generative AI may be used during lesson-plan preparation as stated in the assignment rules. Do not use generative AI to draft or revise this reflection; disclose any planning suggestions used.",
       "mapping_rationale": "D is a context-only process record and has no evidence links. It documents reported AI use and the student's reasoning about a suggestion, but self-report does not establish authorship or independently demonstrate E1-E3. Do not count D toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
@@ -147,9 +147,9 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "During one supervised, individual case response, the learner says heavier objects always fall faster, and a learner with low vision cannot access the standard printed worksheet. Complete three clearly labelled parts: (1) identify the misconception and propose a diagnostic question; (2) select a teaching strategy for the misconception and explain why it fits the learner; (3) adapt the assessment response format while preserving the same science learning outcome and success criteria. Explain how each part provides its specified evidence.",
-      "conditions": "No GenAI; respond individually. Score each part separately. E1: identify the misconception and ask a question that reveals the learner's reasoning. E2: select a strategy tied to that need and explain its fit. E3: propose an accessible assessment response format and explain how it preserves the outcome, success criteria, and required evidence. A fluent general response does not substitute for a missing part.",
-      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete all three response parts independently.",
+      "prompt": "During one supervised, individual case response, the student says heavier objects always fall faster, and a student with low vision cannot access the standard printed worksheet. Complete three clearly labelled parts: (1) identify the misconception and propose a diagnostic question; (2) select a teaching strategy for the misconception and explain why it fits the student; (3) adapt the assessment response format while preserving the same science learning outcome and success criteria. Explain how each part provides its specified evidence.",
+      "conditions": "No generative AI; respond individually. Score each part separately. E1: identify the misconception and ask a question that reveals the student's reasoning. E2: select a strategy tied to that need and explain its fit. E3: propose an accessible assessment response format and explain how it preserves the outcome, success criteria, and required evidence. A fluent general response does not substitute for a missing part.",
+      "ai_permissions": "No generative AI during this supervised checkpoint. Students complete all three response parts independently.",
       "mapping_rationale": "E is an integrated checkpoint that deliberately addresses all three requirements through separate response parts: part 1 maps to E1, part 2 to E2, and part 3 to E3. Score each requirement independently; if a part is missing or does not meet its criterion, that requirement is not evidenced. D and F remain context-only.",
       "approval": {
         "status": "development_assumption",
@@ -172,8 +172,8 @@
       "excludes": [],
       "evidence_scope": "context_only",
       "prompt": "In a peer discussion of your inclusive science lesson plan, exchange one suggestion about explaining falling objects or making the lesson accessible. Record the suggestion, whether you used, adapted, or rejected it, and why. These notes inform planning but are not scored as evidence for E1-E3.",
-      "conditions": "Record the peer's suggestion and your own decision with a brief reason linked to the learner or classroom context. Keep peer contributions distinguishable from your own work. Do not count the discussion notes toward E1-E3; those requirements need individual evidence from the designated checkpoints.",
-      "ai_permissions": "GenAI may contribute during lesson-plan preparation under the assignment rules. In these notes, distinguish peer suggestions from GenAI suggestions. No GenAI is permitted during supervised checkpoints A, B, C, or E.",
+      "conditions": "Record the peer's suggestion and your own decision with a brief reason linked to the student or classroom context. Keep peer contributions distinguishable from your own work. Do not count the discussion notes toward E1-E3; those requirements need individual evidence from the designated checkpoints.",
+      "ai_permissions": "generative AI may contribute during lesson-plan preparation under the assignment rules. In these notes, distinguish peer suggestions from generative AI suggestions. No generative AI is permitted during supervised checkpoints A, B, C, or E.",
       "mapping_rationale": "F is intentionally context-only and has no evidence links. Peer suggestions may inform planning, but collaborative notes do not establish each student's individual attainment of E1-E3. Do not count F toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
@@ -184,5 +184,5 @@
   ],
   "notes": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
   "expected_narrative": "A + B + C costs 300 teacher minutes and 22 student minutes; E alone costs 160 teacher minutes and 20 student minutes. E is the cheapest complete plan in this worked example. At teacher budget 160 it remains feasible; at 159 no complete plan is feasible.",
-  "context_conditions": "A learner with low vision cannot access the standard printed worksheet. Preserve the same science learning outcome and success criteria while providing an accessible way to respond."
+  "context_conditions": "A student with low vision cannot access the standard printed worksheet. Preserve the same science learning outcome and success criteria while providing an accessible way to respond."
 }

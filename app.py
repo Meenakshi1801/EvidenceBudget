@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 from engine import solve,validate,fingerprint,ValidationError
 ROOT=Path(__file__).resolve().parent
 TOKEN=secrets.token_urlsafe(32)
-APP_VERSION='0.5.8'
+APP_VERSION='0.5.9'
 def case_fingerprint(case):
  raw=json.dumps(case,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
  return hashlib.sha256(raw).hexdigest()
@@ -34,7 +34,7 @@ class Handler(BaseHTTPRequestHandler):
    payload=json.loads(self.rfile.read(n));case=payload['case']
    if self.path=='/api/approve':
     reviewer=payload.get('reviewer','').strip()
-    if not reviewer:raise ValidationError('Enter your reviewer name or identifier')
+    if not reviewer:raise ValidationError('Enter your name or identifier to record the review')
     for cp in case['checkpoints']:
      cp['approval']={'status':'teacher_approved','reviewer':reviewer,'fingerprint':fingerprint(cp)}
     validate(case)

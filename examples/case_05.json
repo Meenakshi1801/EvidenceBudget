@@ -3,8 +3,8 @@
   "case_id": "05",
   "title": "Individual evidence in a collaborative project",
   "class_size": 48,
-  "assignment": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
-  "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+  "assignment": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+  "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
   "teacher_budget": 160,
   "student_budget": 30,
   "fixed_teacher_setup": 0,
@@ -43,7 +43,7 @@
       "evidence_scope": "context_only",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Review twelve group plans.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
@@ -71,7 +71,7 @@
       "evidence_scope": "individual_all",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Individual unfamiliar scenario.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
@@ -95,7 +95,7 @@
       "evidence_scope": "context_only",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Twelve group presentations.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
@@ -123,7 +123,7 @@
       "evidence_scope": "individual_all",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Individual project interview.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
@@ -147,7 +147,7 @@
       "evidence_scope": "context_only",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Individual contribution declaration.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
@@ -171,7 +171,7 @@
       "evidence_scope": "context_only",
       "prompt": "B: Give each student a short source excerpt, a proposed action and a new budget constraint. Ask for a source limitation, a justified decision and a revised recommendation. D individually samples the same three requirements through a structured interview. Candidate: Peer contribution ratings.",
       "conditions": "E1 Evaluate a source used in the proposal. E2 justify a project decision using evidence. E3 respond to a changed stakeholder constraint. Each student must demonstrate all three; a group-level artefact does not automatically cover individual requirements.",
-      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. GenAI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
+      "ai_permissions": "Twelve groups of four prepare a local environmental-action proposal. generative AI may assist group drafting and visualisation. Each student must independently explain evidence and a project decision.",
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",

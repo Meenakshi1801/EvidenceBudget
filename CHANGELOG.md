@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.9 — unify teacher-facing terminology
+
+- Use teacher, student and generative AI consistently in the interface, PDF blueprint, sample plans and user guides.
+- Align time-limit and checkpoint wording across the planning screens and exported blueprint.
+- Update the quick-start guides to match the current sample-plan, review and PDF controls.
+
+
 ## 0.5.8 — clarify intended teaching contexts
 
 - State that EvidenceBudget can support school and university assessment planning, with examples and estimates adapted to the local context.

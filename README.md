@@ -1,12 +1,12 @@
 # EvidenceBudget teacher app and planning engine
 
-Interface version 0.5.8; engine version 0.2.0 — development release, 1 November 2026
+Interface version 0.5.9; engine version 0.2.0 — development release, 1 November 2026
 
 EvidenceBudget: An Open-Source Decision-Support Tool for Evidence-Centered Assessment Design with Generative AI.
 
 Concept and development: Dr. Meenakshi Dwivedi, Assistant Professor, School of Education, Mahatma Jyotiba Phule Rohilkhand University, Bareilly, UP, India.
 
-This runnable Python engine compares checkpoint combinations against declared evidence requirements, teacher time and student workload. It includes six illustrative development cases. The browser interface supports assignment context, teacher-authored AI permissions, evidence mapping, review confirmation and plan comparison. Teachers can create a readable PDF record; machine-readable JSON is not exposed as a teacher-facing download. It does not generate AI permissions or infer assessment validity.
+This runnable Python engine compares checkpoint combinations against declared evidence requirements, teacher time and student workload. It includes six illustrative development cases. The browser interface supports assignment context, teacher-set rules for generative AI use, evidence mapping, review confirmation and plan comparison. Teachers can create a readable PDF record; machine-readable JSON is not exposed as a teacher-facing download. It does not decide what generative AI use to allow or infer assessment validity.
 
 ## Quick start
 
@@ -73,7 +73,7 @@ The command-line engine result JSON records engine version, input SHA256, select
 
 ## Research and release limits
 
-No student learning, authorship, misconduct or assessment-validity inference follows from a feasible plan. A formative review with seven experts and a teacher try-out with eight teachers informed version 0.3.0. The 0.4.1 changes respond to recorded expert comments about the confirmation-to-comparison step, accessibility-equivalence guidance and PDF wrapping. This revised build still needs follow-up expert review and PDF inspection; the formative activities do not establish validity, effectiveness, or broad usability. Costs and mappings require local review and pilot calibration. No external API, network access, keys or student records are needed. Optional GenAI assistance is deferred. Before publication, complete the novelty comparison, document ethics and recruitment procedures, consider a post-revision follow-up, and complete journal-specific release checks.
+No student learning, authorship, misconduct or assessment-validity inference follows from a feasible plan. A formative review with seven experts and a teacher try-out with eight teachers informed version 0.3.0. The 0.4.1 changes respond to recorded expert comments about the confirmation-to-comparison step, accessibility-equivalence guidance and PDF wrapping. This revised build still needs follow-up expert review and PDF inspection; the formative activities do not establish validity, effectiveness, or broad usability. Costs and mappings require local review and pilot calibration. No external API, network access, keys or student records are needed. Optional generative AI assistance is deferred. Before publication, complete the novelty comparison, document ethics and recruitment procedures, consider a post-revision follow-up, and complete journal-specific release checks.
 
 ## Package
 

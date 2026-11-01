@@ -1,4 +1,4 @@
-EvidenceBudget teacher app 0.4.3 — development release
+EvidenceBudget teacher app 0.5.9 — development release
 
 Start the app
 
@@ -17,14 +17,14 @@ Open port 8765 from the Ports panel. If the browser preview reports a version mi
 
 Use the app
 
-1. Load a worked example or choose New assignment.
-2. Describe the assignment and the evidence students must demonstrate.
+1. Choose New assignment to begin your own plan, or select a sample plan in the sidebar and choose Use a sample plan.
+2. Describe the assignment and what students must demonstrate.
 3. Edit checkpoints, their evidence links, delivery conditions and time estimates.
-4. If an alternative response/accessibility route is used, describe it and judge whether it elicits the same evidence under equivalent criteria. The software cannot certify equivalence.
-5. Review the current design, enter a reviewer name or identifier, and tick the confirmation box.
-6. Choose Confirm review. The app proceeds to plan comparison.
-7. For a plan record, choose Download readable PDF blueprint, then choose Save as PDF in the browser print window.
+4. If you offer an alternative response format, describe it and decide whether it shows the same learning under equivalent criteria.
+5. Review the design, enter the teacher name or identifier, and tick the confirmation box.
+6. Choose Confirm review & compare plans. The app opens the plan comparison.
+7. For a plan record, choose Create a readable PDF blueprint, then choose Save as PDF in the browser print window.
 
-The teacher interface does not offer JSON downloads. Version 0.4.2 also improves page breaks in long checkpoint details. Work is not saved automatically; save a PDF record before closing. The PDF records planning assumptions and a teacher review action. It is not a validated assessment instrument.
+The teacher interface does not offer JSON downloads. Work is not saved automatically; create a PDF record before closing. The PDF records planning assumptions and the teacher’s review. It is not a validated assessment instrument.
 
-The worked cases contain illustrative assumptions and require local expert review. EvidenceBudget does not call a GenAI model and does not infer permissions, validity, learning, authorship or accessibility equivalence. The Codespaces preview is for development and review, not permanent hosting.
+The sample plans contain illustrative assumptions and require review for your teaching context. EvidenceBudget does not call a generative AI model or decide which generative AI uses to permit. It does not infer assessment validity, student learning, authorship or accessibility equivalence. The Codespaces preview is for development and review, not permanent hosting.

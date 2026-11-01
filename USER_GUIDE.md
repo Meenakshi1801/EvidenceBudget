@@ -1,8 +1,8 @@
 # EvidenceBudget teacher quick guide
 
-Interface version 0.4.3; planning engine version 0.2.0 — development build, 1 November 2026
+Interface version 0.5.9; planning engine version 0.2.0 — development build, 1 November 2026
 
-EvidenceBudget helps teachers describe learning evidence, review assessment checkpoints, compare their time costs, and create a readable PDF record. It does not judge educational quality, validate an assessment, or determine whether an accessible response is equivalent.
+EvidenceBudget is a planning tool for teachers in school and university settings. It helps connect what students should demonstrate to assessment activities, compare estimated teacher and student time, and create a readable PDF blueprint. Teachers set the rules for generative AI use. The app does not judge assessment quality, student learning, or whether alternative response formats are equivalent.
 
 ## Start the app in Codespaces
 
@@ -11,24 +11,24 @@ EvidenceBudget helps teachers describe learning evidence, review assessment chec
 2. If EvidenceBudget is already running, click the terminal whose output says **EvidenceBudget teacher interface** and press **Ctrl+C** once. Do not delete the terminal.
 3. Start the updated app:
    `python3 app.py --host 0.0.0.0 --no-browser`
-4. Open the **Ports** panel, find port **8765**, and choose **Open in Browser**. The preview must be on the same release as the running server. If not, the app will display a version-mismatch message.
+4. Open the **Ports** panel, find port **8765**, and choose **Open in Browser**. If the preview reports a version mismatch, stop the old server and reopen the forwarded port after starting the updated app.
 
-Keep the terminal and Codespace open while using the preview. The app is a development preview, not permanent hosting.
+Keep the terminal and Codespace open while using the preview. This is a development preview, not permanent hosting.
 
-## Review and compare
+## Plan and compare
 
-1. Open the app’s **How to use EvidenceBudget** page. Choose **Start a blank assignment** for your own design, or select **Open the worked example** to inspect the illustrative case.
-2. Enter the assignment, evidence requirements and checkpoint details.
-3. For an alternative response format, describe it in **Alternative response/accessibility route (if used)**. Judge whether it elicits the same intended evidence, and apply equivalent criteria. The app cannot certify equivalence.
-4. Review the current design assumptions, enter your reviewer name or identifier, and tick the confirmation box.
-5. Select **Confirm review**. The app should proceed to the comparison step and calculate available plans. Any later edit requires a new review.
+1. Open **How to use EvidenceBudget**. Choose **Start a blank assignment** to create your own plan, or select a sample in the sidebar and choose **Use a sample plan**.
+2. Describe the assignment, what students must produce, the classroom context, and what students may do with generative AI.
+3. List the evidence requirements, then add checkpoints and link each checkpoint to the evidence it can show.
+4. Enter realistic teacher and student time estimates. For an alternative response format, explain it under **Alternative response or accessibility option** and decide whether it shows the same learning under equivalent criteria.
+5. Review the design, enter the teacher name or identifier, and tick the confirmation box. Choose **Confirm review & compare plans**. Any later edit requires a new review.
 
 ## Create a PDF record
 
-On the comparison page, choose **Download readable PDF blueprint** for a plan. In the browser print window, choose **Save as PDF**. The PDF contains the assignment, evidence requirements, selected checkpoint details, planning assumptions and review record. Long text is set to wrap in the print layout; checkpoint details may continue across pages.
+On the comparison page, choose **Create a readable PDF blueprint** for a plan, then choose **Save as PDF** in the browser print window. The PDF includes the assignment, evidence requirements, selected checkpoint details, planning assumptions and review record.
 
-The teacher interface does not offer JSON downloads. The app does not save work automatically, so create a PDF record before closing. This PDF records the selected plan and assumptions; it is not a validated assessment instrument.
+The teacher interface does not offer JSON downloads. Work is not saved automatically, so create a PDF record before closing. The PDF records the selected plan and assumptions; it is not a validated assessment instrument.
 
 ## Research status
 
-The formative expert review and teacher try-out informed earlier development. Version 0.4.1 responds to expert comments about review navigation, accessibility guidance and PDF readability. This revision still needs follow-up expert review and representative PDF inspection. Small formative reviews do not establish validity, effectiveness or broad usability.
+The formative expert review and teacher try-out informed earlier development. This revision still needs follow-up expert review and representative PDF inspection. Small formative reviews do not establish validity, effectiveness or broad usability.
