@@ -1,6 +1,6 @@
 # EvidenceBudget teacher quick guide
 
-Interface version 0.4.1; planning engine version 0.2.0 — development build, 1 November 2026
+Interface version 0.4.2; planning engine version 0.2.0 — development build, 1 November 2026
 
 EvidenceBudget helps teachers describe learning evidence, review assessment checkpoints, compare their time costs, and create a readable PDF record. It does not judge educational quality, validate an assessment, or determine whether an accessible response is equivalent.
 
@@ -24,7 +24,7 @@ Keep the terminal and Codespace open while using the preview. The app is a devel
 
 ## Create a PDF record
 
-On the comparison page, choose **Download readable PDF blueprint** for a plan. In the browser print window, choose **Save as PDF**. The PDF contains the assignment, evidence requirements, selected checkpoint details, planning assumptions and review record. Long text is set to wrap in the print layout.
+On the comparison page, choose **Download readable PDF blueprint** for a plan. In the browser print window, choose **Save as PDF**. The PDF contains the assignment, evidence requirements, selected checkpoint details, planning assumptions and review record. Long text is set to wrap in the print layout; checkpoint details may continue across pages.
 
 The teacher interface does not offer JSON downloads. The app does not save work automatically, so create a PDF record before closing. This PDF records the selected plan and assumptions; it is not a validated assessment instrument.
 
