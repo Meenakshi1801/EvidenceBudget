@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.5 — keep start-page message on the start page
+
+- Clear ordinary welcome and status messages when moving into a workspace step, so the orange strip does not repeat the start-page instruction on every page.
+- Keep error messages visible until the user can act on them.
+
+
 ## 0.4.4 — simpler sample-plan language
 
 - Replace “worked example” wording on the guided start with “sample plan” language.
