@@ -69,14 +69,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Individual strategy explanation.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "After diagnosing the learner's belief that heavier objects fall faster, select a teaching strategy for this learner. Explain how the strategy addresses the misconception and identify an observable learner response that would indicate understanding.",
+      "conditions": "Complete this task individually during the supervised checkpoint, without GenAI. Select a strategy suited to the diagnosed learner need, explain how it addresses the misconception, and identify an observable response that would indicate understanding.",
+      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete the response independently.",
+      "mapping_rationale": "This response provides direct evidence for E2 because each student selects and justifies a teaching strategy in relation to the learner's misconception. Score the fit and explanation of the strategy. Do not use this checkpoint to score misconception diagnosis or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "c4e462fd24ec0fdcd07085002424b816852d9e04081a670c601d50ba1bec623e"
+        "fingerprint": "9a055af19cecc2f4362e8885261b801368538279cbac9eafe5db33d6132466b7"
       }
     },
     {
