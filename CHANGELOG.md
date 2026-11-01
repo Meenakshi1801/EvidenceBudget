@@ -1,4 +1,10 @@
 # Changelog
+
+## 0.4.0 — teacher-readable PDF record
+
+- Replaced visible JSON export/import controls with a readable print-to-PDF blueprint containing assignment context, evidence requirements, selected checkpoint details, time assumptions, and the review record.
+- Kept machine-readable JSON out of the teacher-facing interface.
+
 ## 0.3.2 — review confirmation enforcement
 
 - Require a recorded overall design review before comparing assessment plans.
