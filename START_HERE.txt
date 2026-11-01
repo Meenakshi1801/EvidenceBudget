@@ -1,4 +1,4 @@
-EvidenceBudget teacher app 0.4.2 — development release
+EvidenceBudget teacher app 0.4.3 — development release
 
 Start the app
 
