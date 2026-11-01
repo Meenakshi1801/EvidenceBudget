@@ -46,7 +46,7 @@ All mandatory mappings describe individual evidence for every student. Group pro
 
 ## Editing and approval
 
-Edit a copy of the JSON case. Each checkpoint records prompt, conditions, AI permissions, evidence links, rationale, costs, availability and dependencies. Every mapped checkpoint requires a content fingerprint and reviewer identity. Editing checkpoint content invalidates that approval and causes a clear validation error. Budget changes do not change checkpoint content.
+Edit a copy of the JSON case. Each checkpoint records the prompt, conditions, generative AI-use rules, evidence links, rationale, costs, availability and dependencies. Every mapped checkpoint requires a content fingerprint and the teacher's name or identifier. Editing checkpoint content invalidates that approval and causes a clear validation error. Budget changes do not change checkpoint content.
 
 After reviewing the revised checkpoint, update its approval explicitly in Python:
 
@@ -58,7 +58,7 @@ checkpoint = case['checkpoints'][0]
 # First inspect the prompt, conditions, permissions, mapping and estimates.
 checkpoint['approval'] = {
     'status': 'teacher_approved',
-    'reviewer': 'Your reviewer identifier',
+    'reviewer': 'Teacher name or identifier',
     'fingerprint': fingerprint(checkpoint)
 }
 with open('my_case.json', 'w', encoding='utf-8') as output:
