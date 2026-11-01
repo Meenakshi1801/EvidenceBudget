@@ -50,7 +50,7 @@
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "0f8c83f64ac2d772a54419dc6824b44791fdea2ca1b50038010cb821ef9335ba"
+        "fingerprint": "87fd922110856c6b5cf7e3364d0546f7b303abf1f0ad8931afde6c46186407ba"
       }
     },
     {
@@ -76,7 +76,7 @@
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "d17c1b751fddb8c409370845a42af7f86b6043795948942b0c2332adfc6953fa"
+        "fingerprint": "579974195223e4be9ad9bc807f828f337750d6c07d52f19661517891c1290673"
       }
     },
     {
@@ -103,7 +103,7 @@
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "5daaa1707c0939501b1e1460747ecf210157d1d5f911a1a43b3f5bbbbfd9e53f"
+        "fingerprint": "2ce0b80e335d33200271b884bda92cf0480098e0e7ca555b57750edaa0408b89"
       }
     },
     {
@@ -177,7 +177,7 @@
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "35dff2f8483af87927e50e3def0c0204a1b0325e7c9d8eda224a6ad580b932cb"
+        "fingerprint": "39cd914b8b6528de60e097742094bf7ebf58be57ecc9cedc6b88ecbdd0d12995"
       }
     }
   ],
