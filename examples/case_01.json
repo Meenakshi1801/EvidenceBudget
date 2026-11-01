@@ -119,14 +119,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "context_only",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: AI-use reflection.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "After preparing the lesson plan, identify one GenAI suggestion you used, adapted, or rejected. Explain your decision in relation to the learner and classroom context, and state how you documented the AI contribution. This reflection records the planning process; it is not evidence of independent performance on E1-E3.",
+      "conditions": "Complete individually after lesson-plan preparation. Describe one specific AI suggestion and whether it was used, adapted, or rejected; explain the decision with reference to the learner/context. Do not treat this self-report as proof of authorship or as evidence that E1-E3 have been met.",
+      "ai_permissions": "GenAI may be used during lesson-plan preparation as stated in the assignment rules. Do not use GenAI to draft or revise this reflection; disclose any planning suggestions used.",
+      "mapping_rationale": "D is a context-only process record and has no evidence links. It documents reported AI use and the student's reasoning about a suggestion, but self-report does not establish authorship or independently demonstrate E1-E3. Do not count D toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "edc3b7431311f5165ff6b9e0516f223f29ff396a477ec50ba066d565d94b2699"
+        "fingerprint": "f2bac1cfa3af059bf6baf4dea632ea4e7ecf2b08a40e549d88d68782b5f2ea45"
       }
     },
     {
