@@ -1,4 +1,13 @@
 # Changelog
+## 0.3.2 — review confirmation enforcement
+
+- Require a recorded overall design review before comparing assessment plans.
+- Detect an outdated server response that omits the review record instead of treating confirmation as successful.
+
+## 0.3.1 — review record exports
+
+- Include the reviewer identifier, UTC confirmation time, and reviewed-design fingerprint in assignment, run, and blueprint exports.
+
 
 ## 0.3.0 — reviewer-informed interface revision
 
