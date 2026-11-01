@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.4 — clarify the app purpose
+
+- Add a short plain-language introduction to the usage guide explaining what EvidenceBudget helps teachers do.
+- Remove the decorative period after EvidenceBudget in the sidebar wordmark.
+
+
 ## 0.5.3 — clear stale messages when changing pages
 
 - Clear page-specific notices and errors when navigating to another section, so a review reminder does not appear on the welcome page.
