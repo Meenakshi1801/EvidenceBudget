@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.5 — align the usage guide with the approved wording
+
+- Present the app purpose under “About EvidenceBudget” and the five navigation steps under “Plan your assessment step by step.”
+
+
 ## 0.5.4 — clarify the app purpose
 
 - Add a short plain-language introduction to the usage guide explaining what EvidenceBudget helps teachers do.
