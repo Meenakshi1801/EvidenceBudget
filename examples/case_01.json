@@ -183,6 +183,6 @@
     }
   ],
   "notes": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
-  "expected_narrative": "A + B + C costs 300 teacher minutes and 22 student minutes; E alone costs 160 teacher minutes and 20 student minutes. E is the cheapest complete plan in this worked example. At teacher budget 160 it remains feasible; at 159 no complete plan is feasible.",
+  "expected_narrative": "A + B + C costs 300 teacher minutes and 22 student minutes; E alone costs 160 teacher minutes and 20 student minutes. E is the cheapest complete plan in this sample plan. At teacher time limit 160 it remains feasible; at 159 no complete plan is feasible.",
   "context_conditions": "A student with low vision cannot access the standard printed worksheet. Preserve the same science learning outcome and success criteria while providing an accessible way to respond."
 }

@@ -184,5 +184,5 @@
     }
   ],
   "notes": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
-  "expected_narrative": "B requires A. The cheapest full-coverage combination is A + B + E at 140 minutes and S = 30. A + B + C + D costs 173 minutes and S = 35, exceeding the teacher budget. A selection containing B without A must be rejected even if it appears to cover E1. If A is unavailable, full coverage becomes impossible under this library."
+  "expected_narrative": "B requires A. The cheapest full-coverage combination is A + B + E at 140 minutes and S = 30. A + B + C + D costs 173 minutes and S = 35, exceeding the teacher time limit. A selection containing B without A must be rejected even if it appears to cover E1. If A is unavailable, full coverage becomes impossible under this library."
 }

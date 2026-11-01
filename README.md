@@ -23,10 +23,10 @@ Case 01 returns E at 160 teacher minutes and 20 student minutes. Other complete 
 
 ## Included cases
 
-| Case | Minimum teacher minutes under student limit | Initial status |
+| Case | Minimum teacher time within student time limit | Initial status |
 |---|---:|---|
 | 01 Lesson planning | 160 | Feasible |
-| 02 Research methods | 110 | Teacher budget short by 10 |
+| 02 Research methods | 110 | Teacher time limit short by 10 |
 | 03 Source critique | None | E3 has no eligible evidence |
 | 04 Accessible science reasoning | 78 | Feasible |
 | 05 Group project | 131 | Feasible; B and D trade off teacher/student time |
@@ -38,7 +38,7 @@ These are illustrative development fixtures, not research results. The expanded 
 
 Teacher cost = fixed one-off setup + sum(preparation for the cohort + review units × review minutes per unit + delivery/facilitation for the cohort). Student cost is the sum of active minutes per student. Live scoring belongs in delivery only; simultaneous classroom attendance is counted once. The engine uses one point estimate per cost and does not model low/typical/high scenarios. Record uncertain assumptions separately and interpret the computed plan using the entered typical values.
 
-The engine enumerates all subsets (maximum 12 candidates), applies availability, prerequisites and exclusions, counts approved requirement mappings, and checks the two budgets. It returns feasible count, non-dominated plans, minimum teacher cost under the student limit, time shortfall, component-level teacher costs, and diagnostic alternatives if no plan is feasible. Diagnostic alternatives identify unmet requirements and budget overruns, and are not feasible recommendations.
+The engine enumerates all subsets (maximum 12 candidates), applies availability, prerequisites and exclusions, counts approved requirement mappings, and checks the two time limits. It returns feasible count, non-dominated plans, minimum teacher cost under the student time limit, time shortfall, component-level teacher costs, and diagnostic alternatives if no plan is feasible. Diagnostic alternatives identify unmet requirements and budget overruns, and are not feasible recommendations.
 
 Coverage counts are capped conceptually at the required thresholds when comparing complete plans. Additional demonstrations are not assumed to improve evidence quality. Requiring two demonstrations counts two selected checkpoints; the user must separately establish whether they provide sufficiently distinct evidence. Combined structural conflicts may prevent full coverage even when each requirement is individually reachable. Inspect diagnostic plans and dependencies in such cases. There is no minimal-conflict-set or timetable solver in this release.
 
@@ -46,7 +46,7 @@ All mandatory mappings describe individual evidence for every student. Group pro
 
 ## Editing and approval
 
-Edit a copy of the JSON case. Each checkpoint records the prompt, conditions, generative AI-use rules, evidence links, rationale, costs, availability and dependencies. Every mapped checkpoint requires a content fingerprint and the teacher's name or identifier. Editing checkpoint content invalidates that approval and causes a clear validation error. Budget changes do not change checkpoint content.
+Edit a copy of the JSON case. Each checkpoint records the prompt, conditions, generative AI-use rules, evidence links, rationale, costs, availability and dependencies. Every mapped checkpoint requires a content fingerprint and the teacher's name or identifier. Editing checkpoint content invalidates that approval and causes a clear validation error. Time-limit changes do not change checkpoint content.
 
 After reviewing the revised checkpoint, update its approval explicitly in Python:
 

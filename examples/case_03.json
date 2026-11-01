@@ -182,5 +182,5 @@
     }
   ],
   "notes": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
-  "expected_narrative": "No complete plan exists, even when the teacher budget is removed. E3 has zero eligible candidates. Increasing time cannot repair the missing mapping. In a separate repair variant, add G, a supervised second-source verification activity: P = 15, R = 2, N = 30, L = 20, S = 20; cost 95 and coverage E3. Then C + G is the cheapest complete combination at 170 minutes and S = 35."
+  "expected_narrative": "No complete plan exists, even when the teacher time limit is removed. E3 has zero eligible candidates. Increasing time cannot repair the missing mapping. In a separate repair variant, add G, a supervised second-source verification activity: P = 15, R = 2, N = 30, L = 20, S = 20; cost 95 and coverage E3. Then C + G is the cheapest complete combination at 170 minutes and S = 35."
 }

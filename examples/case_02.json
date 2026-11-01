@@ -186,5 +186,5 @@
     }
   ],
   "notes": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
-  "expected_narrative": "No combination fits the 100-minute teacher budget. D alone is the cheapest complete combination at 110 minutes, S = 15. The shortfall is 10 minutes. Increasing the budget to 110 makes D feasible. Removing the teacher limit must not conceal the fact that A + B + C uses 180 minutes."
+  "expected_narrative": "No combination fits the 100-minute teacher time limit. D alone is the cheapest complete combination at 110 minutes, S = 15. The shortfall is 10 minutes. Increasing the budget to 110 makes D feasible. Removing the teacher limit must not conceal the fact that A + B + C uses 180 minutes."
 }
