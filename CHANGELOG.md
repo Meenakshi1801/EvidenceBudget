@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.7 — clarify teacher-facing labels and PDF saving
+
+- Replace abbreviations and technical labels with plain-language wording.
+- Remove repeated accessibility guidance within each checkpoint and clarify the time estimate help.
+- Rename the PDF action to match the browser print/save flow.
+
+
 ## 0.5.6 — highlight the save reminder
 
 - Label the unsaved-work reminder “Important” and set it apart in a soft red notice.
