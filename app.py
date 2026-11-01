@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 from engine import solve,validate,fingerprint,ValidationError
 ROOT=Path(__file__).resolve().parent
 TOKEN=secrets.token_urlsafe(32)
-APP_VERSION='0.5.0'
+APP_VERSION='0.5.1'
 def case_fingerprint(case):
  raw=json.dumps(case,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
  return hashlib.sha256(raw).hexdigest()

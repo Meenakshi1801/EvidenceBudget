@@ -1,6 +1,6 @@
 # EvidenceBudget teacher app and planning engine
 
-Interface version 0.5.0; engine version 0.2.0 — development release, 1 November 2026
+Interface version 0.5.1; engine version 0.2.0 — development release, 1 November 2026
 
 EvidenceBudget: An Open-Source Decision-Support Tool for Evidence-Centered Assessment Design with Generative AI.
 

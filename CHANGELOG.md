@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.1 — unify buttons and soften workspace styling
+
+- Use the welcome page’s warm yellow-to-peach gradient across interface buttons.
+- Add gentle mint, lavender, and peach accents to workspace panels, checkpoint cards, hints, and page backgrounds while keeping entry fields white for readability.
+
+
 ## 0.5.0 — add colorful creator welcome page
 
 - Highlight the app descriptor and redesign the opening page with a colorful two-column portrait and creator profile.
