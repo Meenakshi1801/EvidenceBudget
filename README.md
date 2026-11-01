@@ -19,7 +19,7 @@ python cli.py examples/case_01.json --output my_result.json
 python -m unittest discover -s tests -v
 ```
 
-Case 01 returns E at 160 teacher minutes and 20 student minutes. Other complete combinations remain included in `feasible_count`, while `pareto_plans` removes cost-dominated combinations. No educational-quality ranking is inferred.
+Case 01 has one feasible complete plan: E, at 160 teacher minutes and 20 student minutes. `feasible_count` includes complete combinations that meet both time limits; `pareto_plans` removes cost-dominated combinations. No educational-quality ranking is inferred.
 
 ## Included cases
 
