@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.3 — clear stale messages when changing pages
+
+- Clear page-specific notices and errors when navigating to another section, so a review reminder does not appear on the welcome page.
+- Keep the review checkbox validation on the checkpoint review page.
+
+
 ## 0.5.2 — restore the green sidebar navigation
 
 - Keep the warm gradient for buttons within the workspace.
