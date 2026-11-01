@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.6 — highlight the save reminder
+
+- Label the unsaved-work reminder “Important” and set it apart in a soft red notice.
+- Clarify that sample plans should be adapted to the teacher’s class.
+
+
 ## 0.5.5 — align the usage guide with the approved wording
 
 - Present the app purpose under “About EvidenceBudget” and the five navigation steps under “Plan your assessment step by step.”
