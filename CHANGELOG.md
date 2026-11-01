@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.3 — guided start and blank workspace
+
+- Open the app on a concise instructional page instead of preloading the worked case into the assignment fields.
+- Add a clear “Start a blank assignment” action; begin with empty assignment, evidence, checkpoint, and budget fields.
+- Keep the worked case available as an explicit optional example.
+
 ## 0.4.2 — PDF page-break refinement
 
 - Allow long checkpoint details to flow across pages instead of moving the entire section to a new page and leaving a large blank area.
