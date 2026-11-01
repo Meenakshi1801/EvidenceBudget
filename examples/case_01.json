@@ -147,14 +147,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "individual_all",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Combined supervised scenario.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "During one supervised, individual case response, the learner says heavier objects always fall faster, and a learner with low vision cannot access the standard printed worksheet. Complete three clearly labelled parts: (1) identify the misconception and propose a diagnostic question; (2) select a teaching strategy for the misconception and explain why it fits the learner; (3) adapt the assessment response format while preserving the same science learning outcome and success criteria. Explain how each part provides its specified evidence.",
+      "conditions": "No GenAI; respond individually. Score each part separately. E1: identify the misconception and ask a question that reveals the learner's reasoning. E2: select a strategy tied to that need and explain its fit. E3: propose an accessible assessment response format and explain how it preserves the outcome, success criteria, and required evidence. A fluent general response does not substitute for a missing part.",
+      "ai_permissions": "No GenAI during this supervised checkpoint. Students complete all three response parts independently.",
+      "mapping_rationale": "E is an integrated checkpoint that deliberately addresses all three requirements through separate response parts: part 1 maps to E1, part 2 to E2, and part 3 to E3. Score each requirement independently; if a part is missing or does not meet its criterion, that requirement is not evidenced. D and F remain context-only.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "7663d85e878728bc9bd0751ba4ecfb5229c9b2ffa837cda4076413ae563da958"
+        "fingerprint": "aad396bdf74aff69ab4578d529df8e5541b34de5374dee672adb2d59604e08eb"
       }
     },
     {
@@ -171,14 +171,14 @@
       "requires": [],
       "excludes": [],
       "evidence_scope": "context_only",
-      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Peer discussion notes.",
-      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
-      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
-      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "prompt": "In a peer discussion of your inclusive science lesson plan, exchange one suggestion about explaining falling objects or making the lesson accessible. Record the suggestion, whether you used, adapted, or rejected it, and why. These notes inform planning but are not scored as evidence for E1-E3.",
+      "conditions": "Record the peer's suggestion and your own decision with a brief reason linked to the learner or classroom context. Keep peer contributions distinguishable from your own work. Do not count the discussion notes toward E1-E3; those requirements need individual evidence from the designated checkpoints.",
+      "ai_permissions": "GenAI may contribute during lesson-plan preparation under the assignment rules. In these notes, distinguish peer suggestions from GenAI suggestions. No GenAI is permitted during supervised checkpoints A, B, C, or E.",
+      "mapping_rationale": "F is intentionally context-only and has no evidence links. Peer suggestions may inform planning, but collaborative notes do not establish each student's individual attainment of E1-E3. Do not count F toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
         "reviewer": "Original development fixture; expert review pending",
-        "fingerprint": "a56fd2cf1f062139f6d6355893f3eb7495c60d9166db36e971fd8b87c61573dd"
+        "fingerprint": "a1df8e607d3e5c6faeb4d09d86aac1048592db070c8f1fa6166b1601368f3486"
       }
     }
   ],
