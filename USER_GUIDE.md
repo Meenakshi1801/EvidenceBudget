@@ -1,6 +1,6 @@
 # EvidenceBudget teacher quick guide
 
-Interface version 0.4.2; planning engine version 0.2.0 — development build, 1 November 2026
+Interface version 0.4.3; planning engine version 0.2.0 — development build, 1 November 2026
 
 EvidenceBudget helps teachers describe learning evidence, review assessment checkpoints, compare their time costs, and create a readable PDF record. It does not judge educational quality, validate an assessment, or determine whether an accessible response is equivalent.
 
@@ -17,10 +17,11 @@ Keep the terminal and Codespace open while using the preview. The app is a devel
 
 ## Review and compare
 
-1. Enter or edit the assignment, evidence requirements and checkpoint details.
-2. For an alternative response format, describe it in **Alternative response/accessibility route (if used)**. Judge whether it elicits the same intended evidence, and apply equivalent criteria. The app cannot certify equivalence.
-3. Review the current design assumptions, enter your reviewer name or identifier, and tick the confirmation box.
-4. Select **Confirm review**. The app should proceed to the comparison step and calculate available plans. Any later edit requires a new review.
+1. Open the app’s **How to use EvidenceBudget** page. Choose **Start a blank assignment** for your own design, or select **Open the worked example** to inspect the illustrative case.
+2. Enter the assignment, evidence requirements and checkpoint details.
+3. For an alternative response format, describe it in **Alternative response/accessibility route (if used)**. Judge whether it elicits the same intended evidence, and apply equivalent criteria. The app cannot certify equivalence.
+4. Review the current design assumptions, enter your reviewer name or identifier, and tick the confirmation box.
+5. Select **Confirm review**. The app should proceed to the comparison step and calculate available plans. Any later edit requires a new review.
 
 ## Create a PDF record
 
