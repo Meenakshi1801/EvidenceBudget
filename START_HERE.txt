@@ -1,0 +1,30 @@
+EvidenceBudget teacher app 0.2.0
+
+1. Extract the ZIP completely. Do not run it inside the ZIP preview.
+2. Install Python 3.10 or newer if Python is not already installed.
+3. On Windows, double-click START_WINDOWS.bat.
+   On Mac or Linux, open a terminal in this folder and run: python3 app.py
+4. Your browser should open http://127.0.0.1:8765
+   If it does not, paste that address into your browser.
+5. Keep the Python window open while using the app.
+
+Try a worked case first. Use New assignment for your own assessment.
+Edit the evidence requirements and checkpoints. Confirm review in
+Checkpoints & review, then select Compare plans.
+
+Export assignment before closing. Work is kept only in the current browser
+page and is not automatically saved. Exported files go to your browser's
+download location. Import an exported assignment to continue later.
+
+The six worked cases contain illustrative assumptions, not validated
+assessment instruments. Confirm mappings only after examining them.
+
+There is no API key, paid service or internet dependency. This release
+supports assessment design for GenAI use; it does not call a GenAI model.
+
+If port 8765 is busy, run: python app.py --port 8766
+Then open http://127.0.0.1:8766
+
+Technical checks: 36 tests passed, plus JavaScript syntax checking.
+Interactive browser layout and accessibility testing remain to be completed.
+Expert review and teacher evaluation are pending.

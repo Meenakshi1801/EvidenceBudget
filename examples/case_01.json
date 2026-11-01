@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "case_id": "01",
+  "title": "Inclusive lesson planning",
+  "class_size": 60,
+  "assignment": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+  "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+  "teacher_budget": 180,
+  "student_budget": 40,
+  "fixed_teacher_setup": 0,
+  "budget_scope": "Additional checkpoint work; existing product marking excluded",
+  "requirements": [
+    {
+      "id": "E1",
+      "description": "Diagnose an unfamiliar misconception.",
+      "minimum": 1
+    },
+    {
+      "id": "E2",
+      "description": "Justify a teaching strategy against that learner need.",
+      "minimum": 1
+    },
+    {
+      "id": "E3",
+      "description": "Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "minimum": 1
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "name": "Misconception response",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 15,
+      "review_per_unit": 1,
+      "review_units": 60,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Misconception response.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "5131bb83497260bd15c9360901bc8f1459cd094ea1626d7f21464028b78547dd"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Individual strategy explanation",
+      "coverage": [
+        "E2"
+      ],
+      "preparation": 10,
+      "review_per_unit": 0,
+      "review_units": 60,
+      "delivery": 120,
+      "student_minutes": 2,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Individual strategy explanation.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "c4e462fd24ec0fdcd07085002424b816852d9e04081a670c601d50ba1bec623e"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Adaptation with justification",
+      "coverage": [
+        "E2",
+        "E3"
+      ],
+      "preparation": 15,
+      "review_per_unit": 1,
+      "review_units": 60,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Adaptation with justification.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "22cd35dbd50acddf4dfa1c9b15e065f18134619019a20d60f7aa7888c32bab4c"
+      }
+    },
+    {
+      "id": "D",
+      "name": "AI-use reflection",
+      "coverage": [],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 60,
+      "delivery": 0,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: AI-use reflection.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "edc3b7431311f5165ff6b9e0516f223f29ff396a477ec50ba066d565d94b2699"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Combined supervised scenario",
+      "coverage": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "preparation": 20,
+      "review_per_unit": 2,
+      "review_units": 60,
+      "delivery": 20,
+      "student_minutes": 20,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Combined supervised scenario.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "7663d85e878728bc9bd0751ba4ecfb5229c9b2ffa837cda4076413ae563da958"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Peer discussion notes",
+      "coverage": [],
+      "preparation": 10,
+      "review_per_unit": 0.5,
+      "review_units": 60,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "A: A learner says heavier objects always fall faster; identify what you would ask to diagnose the reasoning. C: Your planned assessment becomes inaccessible to a learner; propose an alternative and justify its fit to the outcome. E combines diagnosis, strategy and assessment revision in one unfamiliar case. Candidate: Peer discussion notes.",
+      "conditions": "E1 Diagnose an unfamiliar misconception. E2 Justify a teaching strategy against that learner need. E3 Revise assessment after a new classroom constraint. Each requires one individual demonstration; justify revisions using the stated context.",
+      "ai_permissions": "Develop an inclusive lesson plan and justify its teaching and assessment decisions. GenAI may draft activities and suggest resources; disclose accepted suggestions. Checkpoints assessing independent performance allow no GenAI during delivery.",
+      "mapping_rationale": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "a56fd2cf1f062139f6d6355893f3eb7495c60d9166db36e971fd8b87c61573dd"
+      }
+    }
+  ],
+  "notes": "Score diagnosis, contextual justification and assessment fit separately. D and F provide context only. A fluent reflection cannot satisfy E1–E3 under the stipulated independent-performance conditions.",
+  "expected_narrative": "A + C costs 170 minutes and S = 20; E alone costs 160 minutes and S = 20. E is the cheapest complete combination in this expanded library. At budget 160 it remains feasible; at 159 no complete plan is feasible. This extends the four-candidate protocol example: adding E correctly changes its previous 170-minute minimum."
+}

@@ -1,0 +1,35 @@
+{
+  "engine_version": "0.1.0",
+  "case_id": "01",
+  "case_sha256": "8b49fe3197a0be5af59eba9b36db1b3f2fdfb742263547605df89be83dc199d7",
+  "status": "feasible",
+  "feasible_count": 2,
+  "pareto_plans": [
+    {
+      "selected": [
+        "E"
+      ],
+      "teacher_minutes": 160,
+      "student_minutes": 20,
+      "coverage_counts": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1
+      },
+      "unmet_requirements": {},
+      "cost_breakdown": [
+        {
+          "id": "E",
+          "teacher_minutes": 160
+        }
+      ]
+    }
+  ],
+  "minimum_teacher_minutes_with_student_limit": 160,
+  "teacher_shortfall": 0,
+  "requirements_unreachable_in_any_legal_plan": [],
+  "minimum_student_minutes_without_budgets": 20,
+  "diagnostic_plans": [],
+  "unavailable": [],
+  "warning": "Feasibility uses declared assumptions. It does not establish assessment validity, authorship, or student learning. Multiple demonstrations are counts, not proof of independent evidence."
+}

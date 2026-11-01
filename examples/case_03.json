@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "case_id": "03",
+  "title": "Source critique with a missing evidence requirement",
+  "class_size": 30,
+  "assignment": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+  "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+  "teacher_budget": 300,
+  "student_budget": 40,
+  "fixed_teacher_setup": 0,
+  "budget_scope": "Additional checkpoint work; existing product marking excluded",
+  "requirements": [
+    {
+      "id": "E1",
+      "description": "Distinguish claim from inference in a supplied excerpt.",
+      "minimum": 1
+    },
+    {
+      "id": "E2",
+      "description": "judge a source limitation.",
+      "minimum": 1
+    },
+    {
+      "id": "E3",
+      "description": "independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "minimum": 1
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "name": "Claim and inference annotation",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 30,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: Claim and inference annotation.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "0f8c83f64ac2d772a54419dc6824b44791fdea2ca1b50038010cb821ef9335ba"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Source limitation response",
+      "coverage": [
+        "E2"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 30,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: Source limitation response.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "d17c1b751fddb8c409370845a42af7f86b6043795948942b0c2332adfc6953fa"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Combined supplied-excerpt critique",
+      "coverage": [
+        "E1",
+        "E2"
+      ],
+      "preparation": 15,
+      "review_per_unit": 1.5,
+      "review_units": 30,
+      "delivery": 15,
+      "student_minutes": 15,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: Combined supplied-excerpt critique.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "5daaa1707c0939501b1e1460747ecf210157d1d5f911a1a43b3f5bbbbfd9e53f"
+      }
+    },
+    {
+      "id": "D",
+      "name": "AI summary reflection",
+      "coverage": [],
+      "preparation": 5,
+      "review_per_unit": 0.5,
+      "review_units": 30,
+      "delivery": 0,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: AI summary reflection.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "f6b0a5d0256cd243bb7daa67074527c23d1924d6df8b4b0ab3ab7336bda00b97"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Bibliography formatting check",
+      "coverage": [],
+      "preparation": 5,
+      "review_per_unit": 0.5,
+      "review_units": 30,
+      "delivery": 0,
+      "student_minutes": 5,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: Bibliography formatting check.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "3f8d1cfe26a70a1b3628ded05d185675c0dd1edf9d9ee76d46a7ce048a3f91ef"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Oral reading of supplied claim",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 5,
+      "review_per_unit": 0,
+      "review_units": 30,
+      "delivery": 60,
+      "student_minutes": 2,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "A and C use an instructor-supplied excerpt and ask students to mark evidence and inference. No activity asks students to locate and inspect an independent second source. This omission is intentional. Candidate: Oral reading of supplied claim.",
+      "conditions": "E1 Distinguish claim from inference in a supplied excerpt. E2 judge a source limitation. E3 independently corroborate or challenge a claim using a second source not supplied in the task. Each requires one individual demonstration.",
+      "ai_permissions": "Write a short evidence-informed position on AI feedback. GenAI may assist search terms and draft summaries. Students must verify sources and evaluate whether claims match the evidence.",
+      "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "35dff2f8483af87927e50e3def0c0204a1b0325e7c9d8eda224a6ad580b932cb"
+      }
+    }
+  ],
+  "notes": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
+  "expected_narrative": "No complete plan exists, even when the teacher budget is removed. E3 has zero eligible candidates. Increasing time cannot repair the missing mapping. In a separate repair variant, add G, a supervised second-source verification activity: P = 15, R = 2, N = 30, L = 20, S = 20; cost 95 and coverage E3. Then C + G is the cheapest complete combination at 170 minutes and S = 35."
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "case_id": "06",
+  "title": "Accountable human and AI collaboration in writing",
+  "class_size": 36,
+  "assignment": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+  "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+  "teacher_budget": 160,
+  "student_budget": 35,
+  "fixed_teacher_setup": 0,
+  "budget_scope": "Additional checkpoint work; existing product marking excluded",
+  "requirements": [
+    {
+      "id": "E1",
+      "description": "Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection.",
+      "minimum": 1
+    },
+    {
+      "id": "E2",
+      "description": "verify whether an inspected source supports a claim.",
+      "minimum": 1
+    },
+    {
+      "id": "E3",
+      "description": "independently apply the argument to an unfamiliar counterexample.",
+      "minimum": 1
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "name": "Capture paired draft and suggestion",
+      "coverage": [],
+      "preparation": 10,
+      "review_per_unit": 0,
+      "review_units": 36,
+      "delivery": 0,
+      "student_minutes": 5,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Capture paired draft and suggestion.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "a9b1c61852deedaeb62af3fd5ebbb77631fca2ce95280b86b7e9e0a1e999c490"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Decision commentary on paired drafts",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 36,
+      "delivery": 0,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [
+        "A"
+      ],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Decision commentary on paired drafts.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "f2b8d1621de31cef25b3515904885cc6f3b3f16ec5da1ffd4d48e1d2b1271411"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Supervised claim verification",
+      "coverage": [
+        "E2"
+      ],
+      "preparation": 15,
+      "review_per_unit": 1,
+      "review_units": 36,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Supervised claim verification.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "b8083fb1620019074643137de2dab63d17c807aea64c7e882a53a06453dea5ab"
+      }
+    },
+    {
+      "id": "D",
+      "name": "Independent transfer response",
+      "coverage": [
+        "E3"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 36,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Independent transfer response.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "c2185bc3559d4e3a7e9c57fbea32e74b0b7a021d74febaa1cc5a27985e507420"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Combined verification and transfer",
+      "coverage": [
+        "E2",
+        "E3"
+      ],
+      "preparation": 15,
+      "review_per_unit": 1.5,
+      "review_units": 36,
+      "delivery": 15,
+      "student_minutes": 15,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Combined verification and transfer.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "4f5b0e6b9d3943e235b1754ec823d7249a5df9922492979ab49a7337ae2e3c7f"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Unlinked AI-use declaration",
+      "coverage": [],
+      "preparation": 5,
+      "review_per_unit": 0.5,
+      "review_units": 36,
+      "delivery": 0,
+      "student_minutes": 5,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "B: Select one substantive AI suggestion from A, show your alternative and justify the final decision against the rubric. E: Inspect a source excerpt to judge a claim, then respond independently to a new counterexample. A provides material for B but does not itself demonstrate E1. Candidate: Unlinked AI-use declaration.",
+      "conditions": "E1 Compare a specific AI suggestion with the student’s alternative and justify acceptance or rejection. E2 verify whether an inspected source supports a claim. E3 independently apply the argument to an unfamiliar counterexample. E1 permits documented AI collaboration; E2 and E3 use supervised verification and transfer conditions.",
+      "ai_permissions": "Develop an evidence-based argument with GenAI assistance. AI may draft and critique prose. The intended capability includes evaluating AI suggestions, so AI-assisted work is appropriate for part of the assessment.",
+      "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "d4c78e137eb2dec625bbe1826dc940acc95f2b0c57c8a630d9a6a67d4828080f"
+      }
+    }
+  ],
+  "notes": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
+  "expected_narrative": "B requires A. The cheapest full-coverage combination is A + B + E at 140 minutes and S = 30. A + B + C + D costs 173 minutes and S = 35, exceeding the teacher budget. A selection containing B without A must be rejected even if it appears to cover E1. If A is unavailable, full coverage becomes impossible under this library."
+}

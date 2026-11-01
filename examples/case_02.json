@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "case_id": "02",
+  "title": "Research design under a restricted budget",
+  "class_size": 40,
+  "assignment": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+  "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+  "teacher_budget": 100,
+  "student_budget": 30,
+  "fixed_teacher_setup": 0,
+  "budget_scope": "Additional checkpoint work; existing product marking excluded",
+  "requirements": [
+    {
+      "id": "E1",
+      "description": "Select and justify a design appropriate to a question.",
+      "minimum": 1
+    },
+    {
+      "id": "E2",
+      "description": "identify a sampling limitation.",
+      "minimum": 1
+    },
+    {
+      "id": "E3",
+      "description": "distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "minimum": 1
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "name": "Design choice response",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 40,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Design choice response.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "0d9da4c71d7a9203b0e379357191b4837c39ea277999724f8f4533c845f29aa9"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Sampling critique",
+      "coverage": [
+        "E2"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 40,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Sampling critique.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "e523d022abf2385a68fff5e23328b70fe24a30f94d8da997fdcdd693f6bb0e12"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Inference correction",
+      "coverage": [
+        "E3"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 40,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Inference correction.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "d891068065b949d69c972594bec913bc5105154ee5bd19af29898aae85d3d17e"
+      }
+    },
+    {
+      "id": "D",
+      "name": "Combined supervised critique",
+      "coverage": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "preparation": 15,
+      "review_per_unit": 2,
+      "review_units": 40,
+      "delivery": 15,
+      "student_minutes": 15,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Combined supervised critique.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "1819dc23a9eee1f0becde977e8e195c488e080c522081653ee6729845cd461e6"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Research-process reflection",
+      "coverage": [],
+      "preparation": 5,
+      "review_per_unit": 0.5,
+      "review_units": 40,
+      "delivery": 0,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Research-process reflection.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "14fe204f1f0e5ba1030519170cf6472cd6e7389a76ded1d57e053b53f2705472"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Extended design interview",
+      "coverage": [
+        "E1",
+        "E2"
+      ],
+      "preparation": 10,
+      "review_per_unit": 0,
+      "review_units": 40,
+      "delivery": 120,
+      "student_minutes": 3,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "D: A college compares volunteers using an AI tutor with non-volunteers and claims the tutor caused higher achievement. Choose a stronger feasible design, identify the sampling issue and rewrite the conclusion within the evidence limits. Candidate: Extended design interview.",
+      "conditions": "E1 Select and justify a design appropriate to a question. E2 identify a sampling limitation. E3 distinguish the inference supported by the design from a causal overclaim. One individual demonstration of each is mandatory.",
+      "ai_permissions": "Develop a small research proposal. GenAI may assist wording and suggest designs; the student verifies references and retains responsibility for the final proposal. Independent checkpoints use an unfamiliar problem.",
+      "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "e501120711f2f55ecd8a3fdac423967f7f5d988faafa1e7e140c423d8373af47"
+      }
+    }
+  ],
+  "notes": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
+  "expected_narrative": "No combination fits the 100-minute teacher budget. D alone is the cheapest complete combination at 110 minutes, S = 15. The shortfall is 10 minutes. Increasing the budget to 110 makes D feasible. Removing the teacher limit must not conceal the fact that A + B + C uses 180 minutes."
+}

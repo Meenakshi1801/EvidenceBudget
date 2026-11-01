@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "case_id": "04",
+  "title": "Accessible demonstration of scientific reasoning",
+  "class_size": 24,
+  "assignment": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+  "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+  "teacher_budget": 100,
+  "student_budget": 25,
+  "fixed_teacher_setup": 0,
+  "budget_scope": "Additional checkpoint work; existing product marking excluded",
+  "requirements": [
+    {
+      "id": "E1",
+      "description": "Identify the causal reasoning error.",
+      "minimum": 1
+    },
+    {
+      "id": "E2",
+      "description": "propose a fair-test revision.",
+      "minimum": 1
+    },
+    {
+      "id": "E3",
+      "description": "justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "minimum": 1
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "name": "Live oral scenario",
+      "coverage": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "preparation": 10,
+      "review_per_unit": 0,
+      "review_units": 24,
+      "delivery": 72,
+      "student_minutes": 3,
+      "review_basis": "student",
+      "available": false,
+      "requires": [],
+      "excludes": [
+        "B"
+      ],
+      "evidence_scope": "individual_all",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Live oral scenario.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "6c1c963f02a6bdcb700460385db55adbfaf4734aaae44bc9f1e49b3e995c1dde"
+      }
+    },
+    {
+      "id": "B",
+      "name": "Supervised written scenario",
+      "coverage": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "preparation": 15,
+      "review_per_unit": 2,
+      "review_units": 24,
+      "delivery": 15,
+      "student_minutes": 15,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [
+        "A"
+      ],
+      "evidence_scope": "individual_all",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Supervised written scenario.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "e9bff1871f777339d137dec2443c3643d2b831b3664189cdb38cb25f0210ec45"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Reasoning-error short response",
+      "coverage": [
+        "E1"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 24,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Reasoning-error short response.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "1343681bf954de8db54e3abc2004edd552088ac4023e69cc296f24c7f8e2359b"
+      }
+    },
+    {
+      "id": "D",
+      "name": "Fair-test and measurement response",
+      "coverage": [
+        "E2",
+        "E3"
+      ],
+      "preparation": 10,
+      "review_per_unit": 1.5,
+      "review_units": 24,
+      "delivery": 10,
+      "student_minutes": 10,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "individual_all",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Fair-test and measurement response.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "1c2aafe865fa75f14d44d2f5900fda80a6ffa4b29ee6f1a5474445426849550e"
+      }
+    },
+    {
+      "id": "E",
+      "name": "Unsupervised audio explanation",
+      "coverage": [],
+      "preparation": 10,
+      "review_per_unit": 1,
+      "review_units": 24,
+      "delivery": 0,
+      "student_minutes": 5,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Unsupervised audio explanation.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "ada9878bbfd085813b3a9674c28301aec07335ceeda1ba6093b6a9781454a7dc"
+      }
+    },
+    {
+      "id": "F",
+      "name": "Preparation reflection",
+      "coverage": [],
+      "preparation": 5,
+      "review_per_unit": 0.5,
+      "review_units": 24,
+      "delivery": 0,
+      "student_minutes": 5,
+      "review_basis": "student",
+      "available": true,
+      "requires": [],
+      "excludes": [],
+      "evidence_scope": "context_only",
+      "prompt": "B: A learner changes water temperature and stirring speed together, then attributes faster dissolving to temperature alone. Explain the inference problem, redesign the comparison and justify how to measure the result. Candidate: Preparation reflection.",
+      "conditions": "E1 Identify the causal reasoning error. E2 propose a fair-test revision. E3 justify a measurement choice. One demonstration per requirement is mandatory. The oral route is unavailable in this scenario; an approved supervised written route is available.",
+      "ai_permissions": "Explain an experiment and propose a fair test. GenAI may support preparation, but the checkpoint demonstration is supervised. Speech fluency is not an intended outcome.",
+      "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+      "approval": {
+        "status": "development_assumption",
+        "reviewer": "Original development fixture; expert review pending",
+        "fingerprint": "1daabc9444d96ce1dcec896228cdf7ff179b7de218b72064e490227c2f797756"
+      }
+    }
+  ],
+  "notes": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
+  "expected_narrative": "A and B are mutually exclusive full-cohort delivery routes. A is also unavailable under the scenario constraint and must be filtered out. B alone costs 78 minutes and S = 15, meeting all requirements. C + D costs 100 minutes and S = 20 and is feasible but dominated by B under the stated coverage and cost model."
+}
