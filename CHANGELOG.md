@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0 — add colorful creator welcome page
+
+- Highlight the app descriptor and redesign the opening page with a colorful two-column portrait and creator profile.
+- Show the creator’s name, role, School of Education, and university affiliation without a department listing.
+- Serve the profile photo within the local app and include the same updated credit near the top of PDF blueprints.
+
+
 ## 0.4.9 — add welcome cover and move creator credit
 
 - Add a welcome page with the app title, purpose, and developer affiliation before the usage guide.

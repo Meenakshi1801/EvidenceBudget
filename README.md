@@ -1,10 +1,10 @@
 # EvidenceBudget teacher app and planning engine
 
-Interface version 0.4.9; engine version 0.2.0 — development release, 1 November 2026
+Interface version 0.5.0; engine version 0.2.0 — development release, 1 November 2026
 
 EvidenceBudget: An Open-Source Decision-Support Tool for Evidence-Centered Assessment Design with Generative AI.
 
-Concept and development: Dr. Meenakshi Dwivedi · Department of B.Ed./M.Ed. (IASE), Mahatma Jyotiba Phule Rohilkhand University, Bareilly, Uttar Pradesh, India.
+Concept and development: Dr. Meenakshi Dwivedi, Assistant Professor, School of Education, Mahatma Jyotiba Phule Rohilkhand University, Bareilly, UP, India.
 
 This runnable Python engine compares checkpoint combinations against declared evidence requirements, teacher time and student workload. It includes six illustrative development cases. The browser interface supports assignment context, teacher-authored AI permissions, evidence mapping, review confirmation and plan comparison. Teachers can create a readable PDF record; machine-readable JSON is not exposed as a teacher-facing download. It does not generate AI permissions or infer assessment validity.
 
