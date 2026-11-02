@@ -25,7 +25,7 @@ On Windows, use `py` instead of `python` if needed. Open the local address print
 - `example_result.json`: sample output from a synthetic input.
 - `LICENSE`: MIT License.
 
-The included cases are synthetic software fixtures. They do not contain participant records or findings from a study.
+The included cases are synthetic software fixtures for demonstrating planner behavior.
 
 ## Planning assumptions
 
