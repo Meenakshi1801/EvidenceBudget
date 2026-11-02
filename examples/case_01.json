@@ -49,7 +49,7 @@
       "mapping_rationale": "The response provides direct evidence for E1 because each student identifies the misconception and proposes a question to investigate the student's reasoning. Do not use this checkpoint to score teaching-strategy selection or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "e91881206be5d2ab7cb93286444344f96eb20aae960695c2c9a4032dd05428f2"
       }
     },
@@ -75,7 +75,7 @@
       "mapping_rationale": "This response provides direct evidence for E2 because each student selects and justifies a teaching strategy in relation to the student's misconception. Score the fit and explanation of the strategy. Do not use this checkpoint to score misconception diagnosis or assessment adaptation.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "44c9e8dc39bfcfb68cd7da3966da4c530378cfccf095f21a90e1588510c1b6f6"
       }
     },
@@ -101,7 +101,7 @@
       "mapping_rationale": "This checkpoint directly supports E3: the student revises the assessment in response to a specified accessibility constraint and justifies how the revised format preserves the intended outcome and success criteria. Score accessibility fit and whether the revised format elicits the required evidence. Do not count this response toward E1 misconception diagnosis or E2 teaching-strategy justification.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "d15ed1e6dca4fbbd824feef8db57a17e03140545d179e65e6902e6501f581eb1"
       }
     },
@@ -125,7 +125,7 @@
       "mapping_rationale": "D is a context-only process record and has no evidence links. It documents reported AI use and the student's reasoning about a suggestion, but self-report does not establish authorship or independently demonstrate E1-E3. Do not count D toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "f2bac1cfa3af059bf6baf4dea632ea4e7ecf2b08a40e549d88d68782b5f2ea45"
       }
     },
@@ -153,7 +153,7 @@
       "mapping_rationale": "E is an integrated checkpoint that deliberately addresses all three requirements through separate response parts: part 1 maps to E1, part 2 to E2, and part 3 to E3. Score each requirement independently; if a part is missing or does not meet its criterion, that requirement is not evidenced. D and F remain context-only.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "f423ddc9009ec633a5017ac17528192a8abe9b37813cffc8da1979355e279feb"
       }
     },
@@ -177,7 +177,7 @@
       "mapping_rationale": "F is intentionally context-only and has no evidence links. Peer suggestions may inform planning, but collaborative notes do not establish each student's individual attainment of E1-E3. Do not count F toward any evidence requirement.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "a1df8e607d3e5c6faeb4d09d86aac1048592db070c8f1fa6166b1601368f3486"
       }
     }
