@@ -49,7 +49,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "87fd922110856c6b5cf7e3364d0546f7b303abf1f0ad8931afde6c46186407ba"
       }
     },
@@ -75,7 +75,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "579974195223e4be9ad9bc807f828f337750d6c07d52f19661517891c1290673"
       }
     },
@@ -102,7 +102,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "2ce0b80e335d33200271b884bda92cf0480098e0e7ca555b57750edaa0408b89"
       }
     },
@@ -126,7 +126,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "f6b0a5d0256cd243bb7daa67074527c23d1924d6df8b4b0ab3ab7336bda00b97"
       }
     },
@@ -150,7 +150,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "3f8d1cfe26a70a1b3628ded05d185675c0dd1edf9d9ee76d46a7ce048a3f91ef"
       }
     },
@@ -176,7 +176,7 @@
       "mapping_rationale": "A bibliography or available hyperlink does not establish corroboration. Approve G only if its prompt and scoring require inspection of the source and a reasoned support judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "39cd914b8b6528de60e097742094bf7ebf58be57ecc9cedc6b88ecbdd0d12995"
       }
     }
