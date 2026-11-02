@@ -1,10 +1,3 @@
-EvidenceBudget 0.3.0 verification record
+EvidenceBudget software verification record
 
-Current checks performed after the reviewer-informed changes:
-- Python modules compile successfully.
-- The interface JavaScript passes Node syntax checking.
-- Case 01 runs through the CLI on engine 0.2.0 and returns the expected feasible plan E at 160 teacher minutes and 20 student minutes per student.
-
-The 36-test suite recorded below was run against the earlier 0.2.0 development version. It has not been rerun against version 0.3.0 in this revision.
-
-Historical 0.2.0 test suite: 36 tests passed.
+No verification run is claimed for the current public release.
