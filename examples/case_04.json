@@ -53,7 +53,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "edb760c8fcf0c6449a9575aa03e484284fca2671bd8e1bdbed4e05189d52e34f"
       }
     },
@@ -83,7 +83,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "6c3a525bd53f4678d2539390ab4abe9e79789f12915f9a917ab3d66785807262"
       }
     },
@@ -109,7 +109,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "0a92927b8dfcd674f4f5ebedc7033cfdedc5e76d714344af31471e6581674754"
       }
     },
@@ -136,7 +136,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "6c25dbd329271ad40d90d428dcbf409eaebb2ea27dd8ec98ab61fd647150087d"
       }
     },
@@ -160,7 +160,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "ada9878bbfd085813b3a9674c28301aec07335ceeda1ba6093b6a9781454a7dc"
       }
     },
@@ -184,7 +184,7 @@
       "mapping_rationale": "The scenario restriction is not a universal claim about disability or oral assessment. If writing were itself a barrier, an individually appropriate reviewed alternative would be needed. Mode substitution does not establish score equivalence.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "1daabc9444d96ce1dcec896228cdf7ff179b7de218b72064e490227c2f797756"
       }
     }
