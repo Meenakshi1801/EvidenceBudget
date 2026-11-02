@@ -19,9 +19,6 @@ class Handler(BaseHTTPRequestHandler):
  def do_GET(self):
   path=urlparse(self.path).path
   if path=='/':self.send(200,(ROOT/'interface.html').read_text().replace('__TOKEN__',TOKEN),'text/html')
-  elif path=='/profile.jpg':
-   raw=(ROOT/'profile.jpg').read_bytes()
-   self.send_response(200);self.send_header('Content-Type','image/jpeg');self.send_header('Content-Length',str(len(raw)));self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff');self.end_headers();self.wfile.write(raw)
   elif path=='/api/examples':self.send(200,[json.loads(p.read_text()) for p in sorted((ROOT/'examples').glob('case_*.json'))])
   elif path=='/api/version':self.send(200,{'app_version':APP_VERSION,'review_record':True})
   else:self.send(404,{'error':'Not found'})
