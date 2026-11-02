@@ -47,7 +47,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "3d85e811fd3d55057de04adc03ff1b7e6c2fe30bac531c5a3ff77af3b5557860"
       }
     },
@@ -75,7 +75,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "f10878da241d9d64ebbbac8f86c11fd38332e8a4efc163ac3965a739c14b4e02"
       }
     },
@@ -99,7 +99,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "2cf32f3d74e92fe8f28e7129273edf280020f13d7b98c5a7df537bd3333fbe57"
       }
     },
@@ -127,7 +127,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "99a054e8a8a15466fa8878c3d858d9bae74ed6e59a7f0e67f8e26dd7f05c4aeb"
       }
     },
@@ -151,7 +151,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "b100ac5fccf9655d9066c03685058da052075d9c1af52ee6568128e0081ffeec"
       }
     },
@@ -175,7 +175,7 @@
       "mapping_rationale": "For C, L = 12 × 10 = 120 minutes and review is zero because scoring occurs live. The engine must not multiply a ten-minute group presentation by 48 students or count live scoring twice.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "a728a00fa834cdc75ad9ff49e3b6d97e278c1e51477efc62d8be483aa6406222"
       }
     }
