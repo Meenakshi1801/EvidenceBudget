@@ -47,7 +47,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "a9b1c61852deedaeb62af3fd5ebbb77631fca2ce95280b86b7e9e0a1e999c490"
       }
     },
@@ -75,7 +75,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "88036fa49cc3b2b30821d9f523f21cd38a66d4d6cd240e70e9a24dfcfeec2b9e"
       }
     },
@@ -101,7 +101,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "eec7457c31a536337a619ed2969b4fd66a4d82f23b68bf4fee3e5ea94b6fb206"
       }
     },
@@ -127,7 +127,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "8b2aeb9040bb884828c3d678f4c52455ffb13b1a25c1be228627ca920c3a67d6"
       }
     },
@@ -154,7 +154,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "d10a82cf519d9757f78b36c676cd8c8c6ed7d64783328d2b2d3479b754c5836d"
       }
     },
@@ -178,7 +178,7 @@
       "mapping_rationale": "AI assistance is not treated as invalid by default. Coverage depends on the intended capability and evidence conditions. Pairing drafts establishes a basis for commentary, not proof of authorship or the quality of the student’s judgment.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "d4c78e137eb2dec625bbe1826dc940acc95f2b0c57c8a630d9a6a67d4828080f"
       }
     }
