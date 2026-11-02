@@ -49,7 +49,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "6240871775a021173ce72e41c170160b10f7d41633925ea2f43daee50d34cdf1"
       }
     },
@@ -75,7 +75,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "0fc013796b46d1a13d44316d6532560bcf56e585c12faebb78246c9a4f37a5a8"
       }
     },
@@ -101,7 +101,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "73f8d5ca5e7a23ecc0c1464bf8d46e9d16a8166eef327bb86090fbf392d041e8"
       }
     },
@@ -129,7 +129,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "53fa6e4ca1157191f8015c5f170d9d64519b850aed75ef9c57f23881a51b5ac7"
       }
     },
@@ -153,7 +153,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "14fe204f1f0e5ba1030519170cf6472cd6e7389a76ded1d57e053b53f2705472"
       }
     },
@@ -180,7 +180,7 @@
       "mapping_rationale": "The software may propose an explicit budget change or new candidates. It must not silently remove E3 or substitute self-report for the independent demonstration.",
       "approval": {
         "status": "development_assumption",
-        "reviewer": "Original development fixture; expert review pending",
+        "reviewer": "Synthetic example approval",
         "fingerprint": "d38226c256dddb9fd3e8f306d2feb214e9aa7637a9b0a4a4ca5ac76bf57d7282"
       }
     }
