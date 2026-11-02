@@ -29,6 +29,3 @@ On the comparison page, choose **Create a readable PDF blueprint** for a plan, t
 
 The teacher interface does not offer JSON downloads. Work is not saved automatically, so create a PDF record before closing. The PDF records the selected plan and assumptions; it is not a validated assessment instrument.
 
-## Research status
-
-The formative expert review and teacher try-out informed earlier development. This revision still needs follow-up expert review and representative PDF inspection. Small formative reviews do not establish validity, effectiveness or broad usability.
